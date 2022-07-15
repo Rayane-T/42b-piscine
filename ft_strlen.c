@@ -5,19 +5,22 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: rtayache <rtayache@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/06/30 12:20:53 by rtayache          #+#    #+#             */
-/*   Updated: 2022/06/30 13:27:25 by rtayache         ###   ########.fr       */
+/*   Created: 2022/07/06 14:03:31 by rtayache          #+#    #+#             */
+/*   Updated: 2022/07/06 14:11:14 by rtayache         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_strlen(char *str)
 {
-	int	count;
+	int	i;
+	int	counter;
 
-	count = 0;
-	while (str[count] != '\0')
+	counter = 0;
+	i = 0;
+	while (str[i] != '\0')
 	{
-		count++;
+		counter++;
+		i++;
 	}
-	return (count);
+	return (counter);
 }
