@@ -1,40 +1,41 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putnbr.c                                        :+:      :+:    :+:   */
+/*   ft_print_comb.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: rtayache <rtayache@student.42.fr>          +#+  +:+       +#+        */
+/*   By: rtayache <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/06/28 07:14:00 by rtayache          #+#    #+#             */
-/*   Updated: 2022/06/30 18:16:36 by rtayache         ###   ########.fr       */
+/*   Created: 2022/06/24 11:37:43 by rtayache          #+#    #+#             */
+/*   Updated: 2022/06/30 18:49:03 by rtayache         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_putchar(char c)
+void	ft_print_comb(void)
 {
-	write(1, &c, 1);
-}
+	char	a;
+	char	b;
+	char	c;
 
-void	ft_putnbr(int nb)
-{
-	if (nb == -2147483648)
+	a = '0';
+	b = '1';
+	c = '2';
+	while (a <= '7')
 	{
-		ft_putnbr(nb / 10);
-		ft_putchar('8');
-	}
-	else if (nb < 0)
-	{
-		ft_putchar('-');
-		ft_putnbr(-nb);
-	}
-	else
-	{
-		if (nb > 9)
+		while (b <= '8')
 		{
-			ft_putnbr(nb / 10);
+			while (c <= '9')
+			{
+				write(1, &a, 1);
+				write(1, &b, 1);
+				write(1, &c, 1);
+				write(1, ", ", 1);
+				c++;
+			}
+			c = b++ + 1;
 		}
-		ft_putchar(48 + nb % 10);
+		b = a++ + 1;
 	}
+	a++;
 }

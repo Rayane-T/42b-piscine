@@ -1,40 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putnbr.c                                        :+:      :+:    :+:   */
+/*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rtayache <rtayache@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/06/28 07:14:00 by rtayache          #+#    #+#             */
-/*   Updated: 2022/06/30 18:16:36 by rtayache         ###   ########.fr       */
+/*   Created: 2022/06/30 18:10:03 by rtayache          #+#    #+#             */
+/*   Updated: 2022/06/30 18:41:35 by rtayache         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
-void	ft_putchar(char c)
+void	ft_print_reverse_alphabet(void)
 {
-	write(1, &c, 1);
-}
+	char	z;
 
-void	ft_putnbr(int nb)
-{
-	if (nb == -2147483648)
+	z = 'z';
+	while (z >= 'a')
 	{
-		ft_putnbr(nb / 10);
-		ft_putchar('8');
-	}
-	else if (nb < 0)
-	{
-		ft_putchar('-');
-		ft_putnbr(-nb);
-	}
-	else
-	{
-		if (nb > 9)
-		{
-			ft_putnbr(nb / 10);
-		}
-		ft_putchar(48 + nb % 10);
+		write(1, &z, 1);
+		z--;
 	}
 }
