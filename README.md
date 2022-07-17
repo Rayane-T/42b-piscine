@@ -55,7 +55,7 @@ The table below presents the C Piscine's curriculum in chronological order in wh
 |01	|[Shell 00](./c_piscine_shell_00)	|Shell		|about 1 day	|100 XP		|100% :heavy_check_mark:	|level 0 - 88%	|
 |02	|Exam 00							|C			|about 4 hours	|225 XP		|48% :heavy_check_mark:		|level 1 - 73%	|
 |03	|[Shell 01](./c_piscine_shell_01)	|Shell		|about 1 day	|100 XP		|100% :heavy_check_mark:	|level 2 - 45%	|
-|04	|[Rush 00](./c_piscine_rush_00)		|C			|2 days			|150 XP		|0% :x:						|-				|
+|04	|[Rush 00](./c_piscine_rush_00)		|C			|2 days			|150 XP		|100% :x:						|-				|
 |05	|[C 00](./c_piscine_c_00)			|C			|about 1 day	|100 XP		|100% :heavy_check_mark:	|level 3 - 12%	|
 |06	|Exam 01							|C			|about 4 hours	|225 XP		|32% :heavy_check_mark:		|level 3 - 55%	|
 |07	|[C 01](./c_piscine_c_01)			|C			|about 1 day	|100 XP		|100% :heavy_check_mark:	|level 4 - 14%	|
