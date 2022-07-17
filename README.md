@@ -10,7 +10,7 @@ This repository contains coding developed at [42berlin's](https://42berlin.de/) 
 	approved in its selection process. The so-called "C Piscine", a 26-day C programming bootcamp,
 	is the last stage in the selection process for becoming a "cadet" (42's student).
 
-[![Photo of a 42berlin's lab](42saopaulo.jpg)](https://42berlin.de//)
+[![Photo of a 42berlin's lab](42berlinlab.jpg)](https://42berlin.de//)
 
 ## Skills developed at C Piscine
 
