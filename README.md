@@ -51,8 +51,8 @@ The table below presents the C Piscine's curriculum in chronological order in wh
 
 |#	|SUBJECT							|LANGUAGE	|DURATION		|EXPERIENCE	|STATUS						|ATTAINED LEVEL	|
 |:-:|:--								|:-:		|--:			|--:		|--:						|:--			|
-|00	|[Accept me](./eu_aceito)			|N/A		|-				|0 XP		|100% :heavy_check_mark:	|level 0 - 0%	|
-|01	|[Shell 00](./c_piscine_shell_00)	|Shell		|about 1 day	|100 XP		|100% :heavy_check_mark:	|level 0 - 88%	|
+|00	|[Accept me](./Acceptme)			|N/A		|-				|0 XP		|100% :heavy_check_mark:	|level 0 - 0%	|
+|01	|[Shell 00](./Shell00)	|Shell		|about 1 day	|100 XP		|100% :heavy_check_mark:	|level 0 - 88%	|
 |02	|Exam 00							|C			|about 4 hours	|225 XP		|48% :heavy_check_mark:		|level 1 - 73%	|
 |03	|[Shell 01](./Shell01)	|Shell		|about 1 day	|100 XP		|100% :heavy_check_mark:	|level 2 - 45%	|
 |04	|[Rush 00](./RushProjects)		|C			|2 days			|150 XP		|120% ✔️						|level 2 - 92%				|
@@ -68,5 +68,5 @@ The table below presents the C Piscine's curriculum in chronological order in wh
 |14	|[C 06](./C06)|C			|about 1 day	|100 XP		|100% :heavy_check_mark:	|level 6 - 70%	|
 |15	|[C 05](./C05)		|C			|about 1 day	|100 XP		|90% :heavy_check_mark:		|level 7 - 7%	|
 |16	|[C 07](./C07)		|C			|about 1 day	|100 XP		|100% ✔️					|-				|
-|17	|[C 08](./c_piscine_c_08)			|C			|about 1 day	|100 XP		|40% :x:					|-				|
+|17	|[C 08](./C08)			|C			|about 1 day	|100 XP		|40% :x:					|-				|
 |18	|Final Exam							|C			|about 8 hours	|375 XP		|48% :heavy_check_mark:		|level 7 - 73%	|
