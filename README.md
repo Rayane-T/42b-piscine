@@ -51,7 +51,7 @@ The table below presents the C Piscine's curriculum in chronological order in wh
 
 |#	|SUBJECT							|LANGUAGE	|DURATION		|EXPERIENCE	|STATUS						|ATTAINED LEVEL	|
 |:-:|:--								|:-:		|--:			|--:		|--:						|:--			|
-|00	|[Accept me](./Acceptme)			|N/A		|-				|0 XP		|100% :heavy_check_mark:	|level 0 - 0%	|
+|00	|[Accept me](./fd)			|N/A		|-				|0 XP		|100% :heavy_check_mark:	|level 0 - 0%	|
 |01	|[Shell 00](./Shell00)	|Shell		|about 1 day	|100 XP		|100% :heavy_check_mark:	|level 0 - 88%	|
 |02	|Exam 00							|C			|about 4 hours	|225 XP		|48% :heavy_check_mark:		|level 1 - 73%	|
 |03	|[Shell 01](./Shell01)	|Shell		|about 1 day	|100 XP		|100% :heavy_check_mark:	|level 2 - 45%	|
